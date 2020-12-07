@@ -1,0 +1,13 @@
+version: '2.1'
+
+services:
+  spring-boot-service-test:
+    build:
+      context: .
+      args:
+        - http_proxy
+        - https_proxy
+        - no_proxy
+    image: hmctspublic.azurecr.io/rpe/spring-boot-service-test
+    ports:
+      - $SERVER_PORT:$SERVER_PORT
