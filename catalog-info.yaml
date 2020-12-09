@@ -5,6 +5,8 @@ metadata:
   description: Spring boot template test from Backstage
   annotations:
     jenkins.io/github-folder: 'HMCTS_Platform/rpe-spring-boot-template-test'
+    github.com/project-slug: 'hmcts/rpe-spring-boot-template-test'
+    backstage.io/techdocs-ref: github:https://github.com/hmcts/rpe-spring-boot-template-test
 spec:
   type: service
   lifecycle: experimental
