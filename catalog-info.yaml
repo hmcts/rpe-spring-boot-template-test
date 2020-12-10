@@ -8,6 +8,6 @@ metadata:
     github.com/project-slug: 'hmcts/rpe-spring-boot-template-test'
     backstage.io/techdocs-ref: github:https://github.com/hmcts/rpe-spring-boot-template-test.git
 spec:
-  type: random
+  type: service
   lifecycle: experimental
   owner: rpe
