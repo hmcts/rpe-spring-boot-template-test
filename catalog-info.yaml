@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "rpe-spring-boot-service-test"
+  name: rpe-spring-boot-service-test
   description: Spring boot template test from Backstage
   annotations:
     jenkins.io/github-folder: 'HMCTS_Platform/rpe-spring-boot-template-test'
